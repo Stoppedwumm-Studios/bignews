@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <header>
+            <a href="/"><img src="/logo"></a><br>
+        </header>
         <form method="get" action="/search">
             <input type="search" id="term" placeholder="Search Terms" name="term">
             <input type="submit" value="Search!">
-        </form>
+        </form><br>
+        <button onclick="setcookie()">Set API Key</button>
     </body>
+    <script>
+        function setcookie() {
+            let params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,
+width=600,height=300,left=100,top=100`;
+
+            open('/set', '', params);
+        }
+    </script>
 </html>
