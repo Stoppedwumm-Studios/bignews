@@ -32,6 +32,10 @@ app.get("/search", (req,res) => {
     </div><br><br>
     <footer>Made by Stoppedwumm</footer>
     </body>
+    <script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
     </html>`
 
     main = main + start
@@ -106,6 +110,10 @@ app.get("/set", (req,res) => {
     <input type="submit" value="Set Key">
     </form>
     </body>
+    <script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
     </html>
     `)
 })
